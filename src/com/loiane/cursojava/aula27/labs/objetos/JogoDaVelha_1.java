@@ -1,8 +1,13 @@
 package com.loiane.cursojava.aula27.labs.objetos;
 
 public class JogoDaVelha_1 {
-	public char[][] tabuleiro = new char[3][3];
-	public int jogada = 1;
+	public char[][] tabuleiro;
+	public int jogada;
+
+	public JogoDaVelha_1() {
+		tabuleiro = new char[3][3];
+		jogada = 1;
+	}
 	
 	
 	public void imprimirTabuleiro() {
