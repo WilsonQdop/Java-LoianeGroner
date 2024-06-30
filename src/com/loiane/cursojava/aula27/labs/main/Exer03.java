@@ -34,7 +34,7 @@ public class Exer03 {
 				aluno.notasDisciplinas[i][j] = input.nextDouble();	
 			}
 		}
-		aluno.mostrarInfo();
+			aluno.mostrarInfo();
 		
 		 for(int i = 0; i < aluno.nomeDisciplinas.length; i++) {
 			if(aluno.resultadoEscolar(i)) {
